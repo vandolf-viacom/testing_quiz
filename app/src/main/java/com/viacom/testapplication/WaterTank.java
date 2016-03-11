@@ -18,16 +18,16 @@ public class WaterTank {
      * Adds water to this tank.
      *
      * @param liters the amount of water in liters to add
-     * @return true if the tank did not overflow after adding the given amount of water.
+     * @return true if the tank is full after adding water
      */
     public boolean addWater(int liters) {
         int newAmountInLiters = currentAmountInLiters + liters;
-        if (newAmountInLiters > maxCapacityInLiters) {
+        if (newAmountInLiters >= maxCapacityInLiters) {
             currentAmountInLiters = maxCapacityInLiters;
-            return false;
+            return true;
         } else {
             currentAmountInLiters = newAmountInLiters;
-            return true;
+            return false;
         }
     }
 

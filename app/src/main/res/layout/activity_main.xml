@@ -12,13 +12,13 @@
     <Button
         android:id="@+id/add_water"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:text="@string/add_water" />
 
     <TextView
         android:id="@+id/current_amount_in_liters"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="wrap_content" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,8 +27,8 @@
 
         <TextView
             android:id="@+id/tank_is_full_indicator_label"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="@string/tank_is_full" />
 
         <CheckBox
