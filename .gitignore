@@ -9,6 +9,8 @@
 *.class
 
 # Generated files
+*.iml
+.idea/
 bin/
 gen/
 

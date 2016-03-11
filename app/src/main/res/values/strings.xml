@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Test Application</string>
+    <string name="add_water">Add Water</string>
+    <string name="tank_is_full">Tank is full?</string>
+</resources>
